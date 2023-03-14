@@ -31,3 +31,9 @@ TEST_CASE("Decrypt Vigenere test"){
     CHECK(decryptVigenere("","banana") == "");
     CHECK(decryptVigenere("nothing there","") == "nothing there");
 }
+
+TEST_CASE("Decrypt using automatic Caesar Cipher"){
+    CHECK(solve("There is a cake!") == "There is a cake!");
+    CHECK(solve("Way to go!") == "Way to go!");
+    CHECK(solve("I love cookies!" == "I love cookies!"));
+}

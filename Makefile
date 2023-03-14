@@ -21,7 +21,7 @@ caesar.o: caesar.cpp caesar.h funcs.h
 
 vigenere.o: vigenere.cpp vigenere.h funcs.h
 
-decrypt.o: decrypt.cpp decrypt.h
+decrypt.o: decrypt.cpp decrypt.h funcs.h
 
 clean:
 	rm -f main.o funcs.o tests.o $(OBJECTS) test-ascii.o
