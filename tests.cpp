@@ -33,7 +33,7 @@ TEST_CASE("Decrypt Vigenere test"){
 }
 
 TEST_CASE("Decrypt using automatic Caesar Cipher"){
-    CHECK(solve("There is a cake!") == "There is a cake!");
+    CHECK(solve("There are two cakes!") == "There is a cake!");
     CHECK(solve("Way to go!") == "Way to go!");
     CHECK(solve("I love cookies!" == "I love cookies!"));
 }

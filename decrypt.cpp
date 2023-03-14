@@ -74,6 +74,7 @@ int getLocation(char a){
         }
         i++;
     }
+    return -1;
 }
 
 //distance formula is  sqrt(  (PhraseFreqA - EngFreqA)^2 + (Phrase FreqB - EngFreB)^2... etc)
